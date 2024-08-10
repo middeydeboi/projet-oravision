@@ -1,0 +1,274 @@
+*{
+  padding: 0;
+margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#play{
+  height: 1000px;
+ 
+}
+#play img{
+  object-fit: cover;
+}
+#video{
+
+border-radius: 15px;
+}
+/* our vision of the world and carousel code begins here*/
+
+#move img{
+  height: 400px;
+  width:700px;
+  object-fit: cover;
+}
+
+#row{
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+#row .fas ,#row .fa, #row #row .fa-solid , #row .bi{
+color:#FF5733;
+}
+#row p{
+  font-size: 20px;
+}
+
+/* our vision of the world code ends here*/
+
+/* our history code begins here*/
+#history {
+  background-image: url('used pictures/pexels-fauxels-3183183.jpg');
+  background-attachment: fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto; 
+   font-weight: 900;
+}
+/* our history code ends here*/
+
+
+/* our teams code goes here */
+#team{
+  cursor: default;
+  background-color: aliceblue;
+}
+
+#team div img {
+  border-radius: 50%;
+   height: 250px;
+   width: 250px; 
+   object-fit:cover;
+   cursor: pointer;
+}
+
+
+
+
+/* our teams code ends here  */
+
+/*our values code goes here*/
+#value .fas, #value .fa , #value .fa-solid , #value .bi, #value .fa-brand, #value .fab{
+  font-size: 60px;
+  color: #FF5733;
+  
+}
+ 
+#value .border{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 20px !important;
+}
+
+#value p{
+font-size: 19px;
+}
+
+/* our values code ends here */
+
+/* our philososphie code ends here*/
+#philosophie .fas, #philosophie .fa , #philosophie .fa-solid , #philosophie .bi, #philosophie .fa-brands, #philosophie.fab{
+  font-size: 60px;
+  color: #FF5733;
+  
+}
+ 
+#philosophie .border{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 20px !important;
+}
+
+#philosophie p{
+font-size: 19px;
+}
+/* our philososphie code ends here*/
+
+
+
+
+/*what our client says begins here*/
+
+
+#client{
+ background-color: lavender;
+}
+
+#client img{
+height: 120px;
+width: 120px;
+object-fit: cover;
+border-radius: 50%;
+border: 4px solid #FF5733;
+padding:3px ;
+
+}
+
+#client #name{
+  text-transform: uppercase;
+}
+#client .border {
+  background-color: aliceblue !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/*what our client says ends here*/
+
+
+
+
+
+
+#personelles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh ;
+  padding: 0 35px;
+  background: #FF5733;
+  margin-top:0;
+}
+.card .img img{
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+ 
+
+}
+.carousel .card{
+  scroll-snap-align: start;
+  height: 342px;
+  list-style-type: none;
+  background: #fff;
+  border-radius: 8px;
+ display: flex;
+ cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 15px;
+  text-align: center;
+  flex-direction: column;
+  } 
+  .carousel.no-transition{
+      scroll-behavior: auto;
+  }
+  .carousel.dragging{
+      scroll-behavior: auto;
+      scroll-snap-type: none;
+  }
+  .carousel.dragging .card{
+      cursor: grab;
+      user-select: none;
+  }
+
+.wrapper{
+  max-width:1100px ;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns:calc((100% / 3) - 12px) ;
+  gap: 16px;
+overflow-x: auto;
+ scroll-snap-type: x mandatory;
+ scroll-behavior: smooth;
+scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.card .img{
+background: #8B53FF;
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+
+  
+}
+.carousel :is(.card, .img) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h2{
+  font-weight: 500;
+  font-size: 1.56rem;
+  margin: 30px 0 5px;
+
+}
+.card  span{
+ color: #6a6d78;
+ font-size: 1.31rem; 
+} 
+.wrapper #left, #right{
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  font-size: 1.25rem;
+  transform:translateY(-50%) ;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.wrapper #left:first-child{
+  left: -22px;
+}
+.wrapper #right:last-child{
+  right: -22px;
+}
+@media screen and (max-width:900px){
+  .wrapper .carousel{ 
+       grid-auto-columns:calc((100% / 2) - 9px) ;
+  }
+}
+@media screen and (max-width:600px){
+  .wrapper .carousel{ 
+       grid-auto-columns:100% ;
+  }
+}
+.carousel .card a p{
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px;
+  background: green;
+  width: 150px;
+}
+.carousel .card a {
+  text-decoration: none;
+  color: lightgreen;
+  font-weight: 500;
+}

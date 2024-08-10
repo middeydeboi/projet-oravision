@@ -1,0 +1,42 @@
+
+/* CONTACT US STYLE BEGINS HERE*/
+#adresse i{
+    font-size: 2em;
+    background-color: #FF5733;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#adresse i:hover{
+    background-color: white;
+    color: #FF5733;
+}
+
+
+#send-button {
+    background-color: #FF5733;
+    border: none;
+}
+
+#send-button:hover {
+    background-color: lightgray; /* Change background color to transparent on hover */
+border:1px solid  #FF5733;
+}
+
+#icons a{
+    cursor: pointer;
+    color: #FF5733;
+    background-color: white;
+    transition: opacity 0.3s ease; 
+    opacity:1;
+    border-radius: 50%;
+
+}
+#icons a:hover{
+background-color: #FF5733 !important;
+color: white;
+
+}
+/* CONTACT US STYLE ENDS HERE*/
+

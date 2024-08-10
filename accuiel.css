@@ -1,0 +1,297 @@
+/*slides show code begins here*/
+.carousel img{
+height: 800px;
+object-fit: cover;
+}
+/*slides show code ends here*/
+
+
+/*our values code goes here*/
+#value .fas, #value .fa , #value .fa-solid , #value .bi, #value .fa-brand, #value .fab{
+  font-size: 60px;
+  color: #FF5733;
+  
+}
+ 
+#value .border{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 20px !important;
+}
+
+#value p{
+font-size: 19px;
+}
+
+/* our values code ends here */
+
+  /* your guaranties code begins here*/
+#alert{
+  background-color: #FF5733;
+  color: black;
+}
+#alert-title i{
+  font-size: 50px;
+  color: #FF5733;
+}
+
+#alert-title p{
+  font-size: 50px;
+}
+  /* your guaranties code ends here*/
+  
+/*SERVICES*/
+
+.choice {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.choice .box {
+  text-align: center;
+  position: relative;
+  width: 350px;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0 5px 15px rgb(0, 0, .1);
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.choice .box .icon {
+  text-align: center;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.choice .box:nth-child(1) .icon {
+  box-shadow: 0 0 0 #e91e63;
+  background: #e91e63;
+}
+
+.choice .box:nth-child(1):hover .icon {
+  box-shadow: 0 0 0 400px #e91e63;
+}
+
+.choice .box:nth-child(2) .icon {
+  box-shadow: 0 0 0 black;
+  background: black;
+}
+
+.choice .box:nth-child(2):hover .icon {
+  box-shadow: 0 0 0 400px black !important;
+}
+
+.choice .box:nth-child(3) .icon {
+  box-shadow: 0 0 0 #2196f3;
+  background: #2196f3;;
+}
+
+.choice .box:nth-child(3):hover .icon {
+  box-shadow: 0 0 0 400px #2196f3;;
+}
+
+.choice .box .content {
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.choice .box:hover .content {
+  color: wheat;
+}
+
+.choice .box .content h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.choice .box .content h5 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.choice .box .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.box .content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.choice .box::before {
+  content: '';
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(225, 225, 225, .2);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.choice .content #first:hover {
+  background-color: #ff3f81;
+}
+
+.choice .content #second:hover {
+  background-color: lightgray;
+}
+
+.choice .content #third:hover {
+  background-color: lightblue;
+}
+
+
+/*what our client says begins here*/
+
+
+#client{
+  background-color: lavender;
+ }
+ 
+ #client img{
+ height: 120px;
+ width: 120px;
+ object-fit: cover;
+ border-radius: 50%;
+ border: 4px solid #FF5733;
+ padding:3px ;
+ 
+ }
+ 
+ #client #name{
+   text-transform: uppercase;
+ }
+ #client .border {
+   background-color: aliceblue !important;
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+ }
+ 
+ /*what our client says ends here*/
+
+/*nos offre code*/
+#offre i:hover{
+  background-color:rgba(0, 0, 0, .2) !important;
+  color: #FF5733 !important;
+  cursor: pointer;
+}
+
+#offre i{
+  background-color:#FF5733 ; 
+  padding: 50px;
+   border-radius: 50%; 
+   color: white;
+    font-size: 70px;
+}
+/*nos offre code ends here*/
+#gallery img{
+  height: 150px;
+  width: 300px;
+  object-fit: cover;
+  transition: all 0.1s ease-in-out;
+}
+
+
+#gallery img:hover{
+  transform: scale(1.5);
+}
+
+/*team code begins*/
+#team img{
+  object-fit: cover;
+  border-radius: 50%;
+height: 250px;
+width: 250px;
+}
+
+
+#team button{
+  border-radius: 9px;
+   border: none;
+   padding: 5px;
+}
+
+#team button a{
+  text-decoration: none;
+   color: black;
+}
+
+#team button a i{
+  background-color: #FF5733;
+  padding: 10px; 
+  border-radius: 50%;
+}
+
+#team button:hover{
+  background-color:#FF5733;
+}
+
+
+
+/*team code ends*/
+
+
+
+/*gallery*/
+.gallery{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  padding: 50px 8%;
+  width: 100%;
+  min-width: 100vh;
+  background: darkgray;
+}
+.images{
+  display: grid;
+  grid-gap: 30px;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.images img{
+  width: 100%;
+  transition: all 0.1s;
+  cursor: pointer;
+  
+}
+
+.images img:hover{
+  transform: scale(1.65);
+}
+
+
+/*contact us*/
+#form-img{
+  height: 400px;
+  width: 800px;
+  object-fit: cover;
+}
+/*contact us code ends here*/

@@ -1,0 +1,222 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#rdv-btn{
+    background-color: #FF5733;
+    border: none;
+}
+
+/* top bar design begins*/
+#top-bar{
+background-color: darkgray;
+text-decoration: none ;
+}
+
+
+
+
+
+#top-bar li a{
+    text-decoration: none;
+}
+
+#top-bar #logo{
+    height: 30px;
+    width: 30px;
+}
+
+#top-bar li span{
+    color:white;
+
+}
+
+/* top bar design ends*/
+
+/*sub bar design begins here */
+
+#sub-bar{
+    text-decoration: none;
+}
+#sub-bar ul li a:not(#active) {
+    color:white;
+    text-decoration: none;
+}
+
+#active  {
+    color:#FF5733 ;
+    text-decoration: none;
+}
+#sub-bar ul li a:not(#active):hover{
+
+    color:#FF5733 ;
+}
+
+/* dropdown*/
+#sub-bar .dropdown-menu a i{
+    color:#FF5733 ;
+}
+
+
+/*sub bar design ends here */
+
+
+/*other important*/
+.line{
+    background-color: #FF5733;
+    width: 100px;
+    border-radius: 5px;
+    height: 5px;
+    margin: 10px auto ; 
+    margin-bottom: 20px;
+  
+  }
+/*other important things code ends here*/
+
+/*our social media handles*/
+#contact a {
+    font-size:1em;
+    color: #FF5733;
+     padding:15px;
+      border-radius: 50%;
+       background-color: white;
+       text-decoration: none;
+       transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  #contact a:hover {
+    color: white;
+    background-color: #FF5733;
+  }
+  
+  
+  
+  /*our social media handles ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

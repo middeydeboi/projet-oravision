@@ -1,0 +1,55 @@
+body{
+    background-image: url(pic/image0.jpg);
+}
+
+.input-container{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   display: flex;
+    min-height: 100vh;
+}
+.input-box input:not(input[type='radio']){
+    padding: 15px;
+    border-radius: 20px;
+    width: 60vh;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, 2);
+    color: white;
+   
+}
+.input-box {
+    margin: 20px;
+}
+div button{
+    width: 62vh;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:blue;
+   font-size: larger;
+}
+div p a{
+    color: blue;
+}
+div button:hover{
+    background-color: lightblue;
+}
+label {
+    margin-right: 5em;
+    /* Adjust the margin to control spacing */
+  }
+  fieldset{
+    padding: 1em;
+    border-radius:3em;
+    }
+    fieldset fieldset{
+        margin-top: 1em;
+    }
+ label input[type='radio']{
+    cursor: pointer;
+    }

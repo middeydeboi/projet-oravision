@@ -1,0 +1,43 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+color:white;
+
+}
+ul{
+justify-content: center;
+position: relative;
+margin-left: 200px;
+
+}
+
+ul li{
+list-style-type: none;
+display: inline;
+margin: 50px;
+
+}
+ul li a {
+
+text-decoration: none;
+color: wheat;
+
+
+text-transform: capitalize;
+}
+
+i{
+margin-right: 8px;
+}
+
+
+ul li a:hover:not(.active){
+color: slateblue;
+}
+.active{
+color:blue;
+}
+
