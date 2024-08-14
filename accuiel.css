@@ -289,9 +289,7 @@ width: 250px;
 
 
 /*contact us*/
-#form-img{
-  height: 400px;
-  width: 800px;
-  object-fit: cover;
+#contact-form{
+  background-image: url(pic/mailbox.jpeg) ;
 }
 /*contact us code ends here*/

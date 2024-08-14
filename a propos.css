@@ -6,17 +6,7 @@ margin: 0;
 }
 
 
-#play{
-  height: 1000px;
- 
-}
-#play img{
-  object-fit: cover;
-}
-#video{
 
-border-radius: 15px;
-}
 /* our vision of the world and carousel code begins here*/
 
 #move img{
@@ -39,6 +29,39 @@ color:#FF5733;
 }
 
 /* our vision of the world code ends here*/
+
+
+
+/* our way of working code begins from here */
+#play{
+  height: 1000px;
+ 
+}
+#play img{
+  object-fit: cover;
+  height: 700px;
+}
+
+#call{
+  background-color: green;
+padding: 10px;
+border-radius: 10px;
+margin-right: 6px;
+}
+
+
+#call a{
+  text-decoration: none;
+  color: white;
+}
+
+#video{
+
+border-radius: 15px;
+}
+/* our way of working code begins from here */
+
+
 
 /* our history code begins here*/
 #history {
@@ -72,23 +95,6 @@ color:#FF5733;
 
 /* our teams code ends here  */
 
-/*our values code goes here*/
-#value .fas, #value .fa , #value .fa-solid , #value .bi, #value .fa-brand, #value .fab{
-  font-size: 60px;
-  color: #FF5733;
-  
-}
- 
-#value .border{
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
-  border-radius: 20px !important;
-}
-
-#value p{
-font-size: 19px;
-}
-
-/* our values code ends here */
 
 /* our philososphie code ends here*/
 #philosophie .fas, #philosophie .fa , #philosophie .fa-solid , #philosophie .bi, #philosophie .fa-brands, #philosophie.fab{
