@@ -21,9 +21,7 @@ margin: 0;
   box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-#row .fas ,#row .fa, #row #row .fa-solid , #row .bi{
-color:#FF5733;
-}
+
 #row p{
   font-size: 20px;
 }
@@ -55,10 +53,7 @@ margin-right: 6px;
   color: white;
 }
 
-#video{
 
-border-radius: 15px;
-}
 /* our way of working code begins from here */
 
 
@@ -96,22 +91,7 @@ border-radius: 15px;
 /* our teams code ends here  */
 
 
-/* our philososphie code ends here*/
-#philosophie .fas, #philosophie .fa , #philosophie .fa-solid , #philosophie .bi, #philosophie .fa-brands, #philosophie.fab{
-  font-size: 60px;
-  color: #FF5733;
-  
-}
- 
-#philosophie .border{
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
-  border-radius: 20px !important;
-}
 
-#philosophie p{
-font-size: 19px;
-}
-/* our philososphie code ends here*/
 
 
 
